@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" preserve-order="true">
+    <test verbose="2"
+          name="/Users/brianzapataresendiz/Documents/IdeaProjects/Maven_Example/src/test/java">
+        <classes>
+            <class name="SetUp"/>
+            <class name="Register"/>
+            <class name="Login"/>
+            <class name="LanguageChange"/>
+            <class name="Watchlist"/>
+            <class name="HomePageTesting"/>
+            <class name="SearchTesting"/>
+            <class name="PageEditing"/>
+            <class name="Page_Creation"/>
+        </classes>
+    </test>
+</suite>
